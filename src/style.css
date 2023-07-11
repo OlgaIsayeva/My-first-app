@@ -1,0 +1,56 @@
+body {
+  font-family: Cerebri Sans, Helvetica, Arial, sans-serif;
+  color: blue;
+}
+h1 {
+  margin-top: 5spx;
+}
+
+h2 {
+  position: fixed;
+  left: 830px;
+  top: 105px;
+}
+.container {
+  max-width: 800px;
+  background-color: rgb(250, 212, 163);
+  background: radial-gradient(
+    1091px at 106.5% 111.5%,
+    rgb(250, 246, 213) 0.1%,
+    rgb(218, 147, 93) 42.2%,
+    rgb(137, 86, 67) 74.3%,
+    rgb(67, 39, 39) 100.2%
+  );
+  background: radial-gradient(
+    905px at 4.9% 85.8%,
+    rgb(255, 243, 242) 0.1%,
+    rgb(255, 247, 220) 57.6%
+  );
+  margin: 0 auto;
+  padding: 50px 60px;
+  border: 1px solid grey;
+  border-radius: 12px;
+}
+.forecast {
+  box-sizing: border-box;
+  display: flex;
+}
+.col {
+  flex: 1 0 0%;
+}
+#temperature,
+#time {
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+#current-location-button {
+  position: fixed;
+  left: 720px;
+  top: 105px;
+  border-radius: 40px;
+  background: rgb(233, 196, 145);
+}
